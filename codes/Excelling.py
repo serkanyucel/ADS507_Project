@@ -1,0 +1,38 @@
+import csv 
+with open('OkulDagilim.csv', 'w', newline = '') as file:
+    writer = csv.writer(file)
+    writer.writerow(["ilce", "number"])
+    writer.writerow(["Aliaga","89"])
+    writer.writerow(["Balcova","33"])
+    writer.writerow(["Bayindir","74"])
+    writer.writerow(["Bayrakli","125"])
+    writer.writerow(["Beydag","33"])
+    writer.writerow(["Bornova","160"])
+    writer.writerow(["Buca","95"])
+    writer.writerow(["Cesme","78"])
+    writer.writerow(["Cigli","117"])
+    writer.writerow(["Dikili","50"])
+    writer.writerow(["Foca","24"])
+    writer.writerow(["Gaziemir","113"])
+    writer.writerow(["Guzelbahce","135"])
+    writer.writerow(["Karabaglar","162"])
+    writer.writerow(["Karaburun","7"])
+    writer.writerow(["Karsiyaka","133"])
+    writer.writerow(["Kemalpasa","120"])
+    writer.writerow(["Kinik","101"])
+    writer.writerow(["Kiraz","73"])
+    writer.writerow(["Konak","175"])
+    writer.writerow(["Menderes","90"])
+    writer.writerow(["Menemen","157"])
+    writer.writerow(["Narlidere","91"])
+    writer.writerow(["Odemis","118"])
+    writer.writerow(["Seferihisar","45"])
+    writer.writerow(["Selcuk","43"])
+    writer.writerow(["Tire","70"])
+    writer.writerow(["Torbali","114"])
+    writer.writerow(["Urla","71"])
+
+file.close()
+
+
+
